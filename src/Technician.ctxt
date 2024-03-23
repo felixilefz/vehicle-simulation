@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Technician
+comment0.text=\n\ Write\ a\ description\ of\ class\ Techncian\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=direction
+comment1.target=Technician(int)
+comment2.params=
+comment2.target=void\ init()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Techncian\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment4.params=
+comment4.target=void\ playWorkSound()
+comment5.params=
+comment5.target=void\ knockDown()
+comment5.text=\n\ Method\ to\ cause\ this\ Pedestrian\ to\ become\ knocked\ down\ -\ stop\ moving,\ turn\ onto\ side\n
+comment6.params=damage
+comment6.target=void\ takeDamage(int)
+comment6.text=\n\ Does\ damage\ to\ the\ pedestrian.\ If\ hp\ is\ 0\ or\ less,\ the\ person\ gets\ knocked\ down\ (for\ projectiles)\n\ @param\ damage\ is\ the\ damage\ the\ pedsetrian\ will\ take\n
+comment7.params=damage\ vehicle
+comment7.target=void\ takeDamage(int,\ Vehicle)
+comment7.text=\n\ Does\ damage\ to\ the\ pedestrian.\ If\ hp\ is\ 0\ or\ less,\ the\ person\ gets\ knocked\ down\n\ And\ makes\ the\ vehicle\ slow\ down\n\ @param\ damage\ is\ the\ damage\ the\ pedsetrian\ will\ take\n\ @param\ vechicle\ The\ vehicle\ that\ hit\ this\ instance\n
+comment8.params=
+comment8.target=void\ healMe()
+comment8.text=\n\ Method\ to\ allow\ a\ downed\ Pedestrian\ to\ be\ healed\n
+numComments=9

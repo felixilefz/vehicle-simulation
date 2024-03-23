@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=VehicleSpawner
+comment0.text=\n\ A\ Spawner\ object\ is\ a\ place\ where\ a\ Vehicle\ can\ spawn.\ Each\ spawner\ is\n\ able\ to\ check\ if\ there\ is\ already\ a\ Vehicle\ in\ the\ spot\ to\ avoid\ spawning\n\ multiple\ Vehicles\ on\ top\ of\ each\ other.\n\ \n\ These\ can\ be\ shown\ in\ order\ to\ help\ understand\ and\ build\ the\ simulation,\n\ but\ should\ be\ hidden\ when\ your\ project\ is\ complete.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=rightward\ laneHeight\ laneNumber
+comment1.target=VehicleSpawner(boolean,\ int,\ int)
+comment2.params=speedModifier
+comment2.target=void\ setSpeedModifier(double)
+comment2.text=\n\ Do\ you\ want\ a\ FAST\ LANE?\ Or\ a\ SLOW\ LANE?\n\ \n\ Speed\ Modifier\ works\ as\ follows\:\n\ -\ A\ speed\ modifier\ of\ 1.0\ would\ have\ no\ effect.\n\ -\ A\ speed\ modifier\ of\ 1.2\ would\ cause\ Vehicles\ to\ spawn\ moving\ 20%\ faster\n\ -\ A\ speed\ modifier\ of\ 0.5\ would\ cause\ Vehicles\ to\ spawn\ at\ half\ speed\ (slowww).\n\ \n\ This\ affects\ the\ values\ for\ a\ Vehicles\ MAX\ speed,\ not\ current\ speed.\ So,\n\ for\ example,\ Vehicles\ spawned\ the\ left\ lane\ might\ be\ set\ to\ be\ in\ a\ bigger\n\ hurry\ than\ Vehicles\ spawned\ in\ the\ right\ lane.\ The\ speed\ still\ uses\ the\ \n\ Vehicle\ subclass'\ values,\ but\ then\ multiplies\ it\ by\ the\ modifier\ to\ determine\n\ the\ actual\ max\ speed.\ You\ can\ simply\ not\ call\ this\ method\ if\ you\ do\ \n\ not\ want\ to\ implement\ this.\n\ \n\ @param\ double\ \ \ \ the\ multiplier\ (1.0\ \=\ 100%,\ 0.5\ \=\ 50%,\ 1.9\ \=\ 190%,\ etc.)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ which\ will\ affect\ spawned\ Vehicle's\ max\ speed.\ Must\ be\ positive.\n
+comment3.params=
+comment3.target=double\ getSpeedModifier()
+comment4.params=
+comment4.target=boolean\ facesRightward()
+comment5.params=
+comment5.target=boolean\ isTouchingVehicleOld()
+comment6.params=
+comment6.target=boolean\ isTouchingVehicle()
+comment7.params=
+comment7.target=int\ getLaneNumber()
+comment7.text=\n\ Get\ the\ lane\ number\ (0\ indexed)\ that\ this\ VehicleSpawner\ represents.\n\ This\ can\ be\ used\ by\ the\ Vehicle\ to\ figure\ out\ where\ it\ is,\ and\ when\n\ faced\ with\ the\ lane\ change\ algorithm\ task,\ which\ lanes\ it\ can\ move\ into.\n\ \n\ @return\ int\ \ the\ lane\ number\ in\ a\ 0-indexed\ fashion\n
+numComments=8
